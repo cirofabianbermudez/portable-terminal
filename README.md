@@ -94,3 +94,13 @@ If you have multiple PNG files that you want to combine into a single PDF, you c
 ```
 convert file1.png file2.png output.pdf
 ```
+
+## Ghostscript
+
+### Compress PDF
+
+To compress the PDF use the following command:
+
+```bash
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -dAutoRotatePages=/None -sOutputFile=output.pdf input.pdf
+```
