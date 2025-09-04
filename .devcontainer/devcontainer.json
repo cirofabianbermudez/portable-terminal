@@ -1,7 +1,7 @@
 {
 	"name": "portable-terminal-codepace",
 	"build": {
-		"dockerfile": "Dokerfile"
+		"dockerfile": "Dockerfile"
 	}
 
 	// Uncomment the next line to run commands after the container is created.
