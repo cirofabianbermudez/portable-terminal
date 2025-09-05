@@ -1,9 +1,0 @@
-{
-	"name": "portable-terminal-codepace",
-	"build": {
-		"dockerfile": "Dockerfile"
-	}
-
-	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": "cat /etc/os-release",
-}
